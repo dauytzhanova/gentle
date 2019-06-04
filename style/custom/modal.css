@@ -1,0 +1,92 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+    transform-origin: center;
+    transition: .2s;
+}
+
+.modal__content{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    margin: 100px auto;
+    position: relative;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 35px;  
+    z-index: 1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+    margin-left: auto;
+  }
+  .modal-form-input {
+    display: flex;
+    flex-direction: column;
+  }
+.modal-title {
+  font-family: 'Popins', sans-serif;
+  font-size: 45px;
+  color: #E8C44D;
+}
+
+.modal-input {
+  width: 270px;
+  height: 25px;
+  margin: 10px 0px; 
+}
+
+.modal-label {
+  font-family: 'Arial', sans-serif;
+  font-size: 20;
+}
+
+.login-bttn {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    color: white;
+    border: none;
+    background-color: #E8C44D;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-suggest {
+    margin-top: 35px;
+    font-family:'Robins', sans-serif;
+    font-size: 14px;
+}
+
+.modal-create-account {
+  text-decoration: none;
+  color: rgb(118, 164, 209);
+  font-size: 15px;
+  margin-left: 3px;
+}
